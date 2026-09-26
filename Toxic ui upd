@@ -6,12 +6,12 @@ local MarketplaceService = game:GetService("MarketplaceService")
 
 local LocalPlayer = Players.LocalPlayer
 local CuteFont = Enum.Font.LuckiestGuy
-local UI_NAME = "CikasBensUILibrary"
+local UI_NAME = "EgiXploitUILibrary"
 
 local Library = {}
 
 function Library:CreateWindow(hubTitle)
-    hubTitle = hubTitle or "CikasBens UI"
+    hubTitle = hubTitle or "EgiXploit UI"
 
     if game.CoreGui:FindFirstChild(UI_NAME) then
         game.CoreGui[UI_NAME]:Destroy()
